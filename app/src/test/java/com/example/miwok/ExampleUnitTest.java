@@ -1,4 +1,4 @@
-package com.example.mikow;
+package com.example.miwok;
 
 import org.junit.Test;
 
