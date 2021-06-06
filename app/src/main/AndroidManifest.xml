@@ -9,46 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/Theme.Miwok">
-        <activity
-            android:name="com.example.Miwok.PhrasesActivity"
-            android:label="@string/category_phrases"
-            android:parentActivityName="com.example.Miwok.MainActivity">
-
-            <!-- Parent activity meta-data to support 4.0 and lower -->
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.Miwok.MainActivity" />
-        </activity>
-        <activity
-            android:name="com.example.Miwok.NumbersActivity"
-            android:label="@string/category_numbers"
-            android:parentActivityName="com.example.Miwok.MainActivity">
-
-            <!-- Parent activity meta-data to support 4.0 and lower -->
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.Miwok.MainActivity" />
-        </activity>
-        <activity
-            android:name="com.example.Miwok.FamilyActivity"
-            android:label="@string/category_family"
-            android:parentActivityName="com.example.Miwok.MainActivity">
-
-            <!-- Parent activity meta-data to support 4.0 and lower -->
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.Miwok.MainActivity" />
-        </activity>
-        <activity
-            android:name="com.example.Miwok.ColorsActivity"
-            android:label="@string/category_colors"
-            android:parentActivityName="com.example.Miwok.MainActivity">
-
-            <!-- Parent activity meta-data to support 4.0 and lower -->
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.Miwok.MainActivity" />
-        </activity>
         <activity android:name="com.example.Miwok.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
